@@ -1,0 +1,29 @@
+# Ignore environment files
+env/
+
+# Ignore model files (already tracked by LFS)
+models/*.h5
+models/model_bert/pytorch_model.bin
+models/tokenizer_bert/*
+
+# Ignore Python bytecode
+*.pyc
+__pycache__/
+
+# Ignore local environment files
+.env.local
+
+# Ignore other OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore model files
+models/
+
+# Ignorar arquivos grandes temporariamente
+*.h5
+*.pt
+*.dll
+*.safetensors
+
+token.json
